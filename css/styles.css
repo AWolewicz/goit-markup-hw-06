@@ -68,11 +68,14 @@
     transition: color 250ms var(--animation-function);
 }
 
-.link-activ {
-    display:none;
+.link-active {
+    color: #404bbf;
+    text-decoration: none;
+    padding: 24px 0;
+    display: inline-block;
 }
 
-.link-activ::after {
+.link-active::after {
     display:block;
     content:"";
     position: absolute;
@@ -575,8 +578,6 @@
 }
 
 .icon-close {
-    width: 24px;
-    height: 24px;
     transition: fill 250ms var(--animation-function);
 }
 
@@ -588,9 +589,9 @@
 .close-btn {
     align-items: center;
     position:absolute;
-    top:24px;
-    right:24px;
-    width:24px;
+    top: 24px;
+    right: 24px;
+    width: 24px;
     height: 24px;
     border-radius: 50%;
     display:flex;
