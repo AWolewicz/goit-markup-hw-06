@@ -666,3 +666,26 @@
     justify-content: center;
     align-items: center;
 }
+
+.modal-label {
+    color: var(--light-slate);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+}
+
+.modal-input {
+    width: 360px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--navy-blue-modal, rbga(46, 47, 66, 0.40));
+}
+
+.modal-head {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--navy-blue);
+}
