@@ -622,6 +622,10 @@
     height: 40px;
 }
 
+.btn-send {
+    align-items: center;
+}
+
 .icon-sub {
     width: 100%;
     height: 100%;
@@ -779,7 +783,7 @@
 }
 
 .checkbox:checked + .check-label .span-check {
-    background-color: #404bbf;
+    background-color: var(--ocean);
     border: none;
-    fill: #f4f4fd;
+    fill: var(--cloud);
 }
