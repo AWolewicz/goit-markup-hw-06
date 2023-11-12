@@ -689,8 +689,9 @@
     position:relative;
 }
 
-.input-cont:focus-within {
-    fill:#4d5ae5;
+.input-cont:focus .modal-icon,
+.input-cont:hover .modal-icon {
+    fill: #4d5ae5;
 }
 
 .modal-input {
@@ -735,10 +736,10 @@
     fill: currentColor;
 }
 
-.modal-input:focus .modal-icon,
-.modal-input:hover .modal-icon {
+/* .modal-icon:focus,
+.modal-icon:hover {
     fill: #4d5ae5;
-}
+}  */
 
 .modal-area {
     width: 100%;
