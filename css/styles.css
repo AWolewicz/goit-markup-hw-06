@@ -624,6 +624,7 @@
 
 .btn-send {
     align-items: center;
+    margin:auto;
 }
 
 .icon-sub {
@@ -688,6 +689,10 @@
     position:relative;
 }
 
+.input-cont:focus-within {
+    fill:#4d5ae5;
+}
+
 .modal-input {
     width: 100%;
     height: 40px;
@@ -702,7 +707,7 @@
 .modal-input:focus,
 .modal-input:hover {
     border-color: #4d5ae5;
-}
+} 
 
 .modal-head {
     font-weight: 500;
@@ -727,6 +732,7 @@
     top:50%;
     transform: translateY(-50%);
     transition: fill 250ms var(--animation-function);
+    fill: currentColor;
 }
 
 .modal-input:focus .modal-icon,
