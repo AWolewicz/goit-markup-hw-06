@@ -689,8 +689,7 @@
     position:relative;
 }
 
-.input-cont:focus .modal-icon,
-.input-cont:hover .modal-icon {
+.input-cont:focus-within {
     fill: #4d5ae5;
 }
 
