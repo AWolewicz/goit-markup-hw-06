@@ -689,8 +689,8 @@
     position:relative;
 }
 
-.input-cont:focus-within {
-    fill: #4d5ae5;
+.modal-input:focus + .modal-icon {
+    fill: var(--iris);
 }
 
 .modal-input {
@@ -738,7 +738,7 @@
 /* .modal-icon:focus,
 .modal-icon:hover {
     fill: #4d5ae5;
-}  */
+} */
 
 .modal-area {
     width: 100%;
